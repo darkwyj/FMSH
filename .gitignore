@@ -7,7 +7,6 @@
 /build
 /captures
 .externalNativeBuild
-.idea
 ### Android template
 # Built application files
 *.apk
@@ -75,3 +74,6 @@ fastlane/screenshots
 fastlane/test_output
 fastlane/readme.md
 
+app/libs/
+/.idea/
+/gradle/

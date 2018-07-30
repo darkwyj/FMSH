@@ -10,6 +10,7 @@ import android.content.res.TypedArray;
 import android.graphics.Color;
 import android.os.Build;
 import android.os.Bundle;
+import android.os.SystemClock;
 import android.support.annotation.DrawableRes;
 import android.support.annotation.LayoutRes;
 import android.support.annotation.NonNull;
@@ -73,6 +74,7 @@ public abstract class BaseActivity extends AppCompatActivity implements View.OnC
 //            StatusBarUtils.setStuatusTextColor(this);
 //        }
 //        StatusBarUtils.setStuatusTextColor(this);
+        SystemClock.currentThreadTimeMillis();
 
 
     }
