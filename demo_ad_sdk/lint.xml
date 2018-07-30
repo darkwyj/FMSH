@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lint>
+    <issue id="HandlerLeak">
+        <ignore path="src\com\example\demo_ad_sdk\MessageBox.java" />
+        <ignore path="src\com\example\demo_ad_sdk\StatusBox.java" />
+    </issue>
+</lint>

@@ -1,0 +1,71 @@
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="?attr/colorPrimary"
+    android:minHeight="?attr/actionBarSize"
+    app:contentInsetEnd="0dp"
+    app:contentInsetStart="0dp">
+
+    <RelativeLayout
+        android:id="@+id/toolbat_rl"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:gravity="center_vertical"
+        >
+
+        <View
+            android:id="@+id/toolbar_divider_line"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:visibility="visible"
+            android:layout_alignParentBottom="true"
+            android:background="@color/colorPrimary" />
+
+        <TextView
+            android:id="@+id/toolbar_left_btn"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:layout_above="@id/toolbar_divider_line"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:drawablePadding="10dp"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:text="Bcak"
+            android:gravity="center_vertical|left"
+            android:paddingLeft="10dp" />
+
+
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_toLeftOf="@+id/toolbar_right_btn"
+            android:layout_toRightOf="@id/toolbar_left_btn"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/toolbar_right_btn"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:layout_above="@id/toolbar_divider_line"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:gravity="center_vertical|right"
+            android:singleLine="true"
+            android:textSize="10sp"
+            android:paddingRight="15dp"
+            android:textColor="@color/black"
+            android:visibility="invisible"/>
+    </RelativeLayout>
+
+</android.support.v7.widget.Toolbar>

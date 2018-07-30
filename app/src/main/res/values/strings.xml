@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">防伪溯源App</string>
+    <string name="text_yes">YES</string>
+    <string name="text_no">NO</string>
+    <string name="text_title">Permissions Required</string>
+
+    <string name="splash_text1">RFID防伪溯源系统</string>
+    <string name="splash_text2">复旦微演示版本</string>
+
+    <string name="main_text1">唯一性认证</string>
+    <string name="main_text2">二维码溯源</string>
+    <string name="main_text3">此功能需要权限才能运行,否则无法正常使用，是否打开设置?</string>
+    <string name="web_text1">查询的产品验证通过,感谢购买!\n即将跳转到产品信息页面.</string>
+    <string name="web_text2">此产品可能不是真的，请小心使用.</string>
+    <string name="web_text3">温馨提示:手机靠近标签,即可查询验证.</string>
+
+
+</resources>

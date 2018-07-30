@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">防伪溯源App</string>
+    <string name="text_yes">YES</string>
+    <string name="text_no">NO</string>
+    <string name="text_title">Permissions Required</string>
+
+    <string name="splash_text1">RFID防伪溯源系统</string>
+    <string name="splash_text2">复旦微演示版本</string>
+
+    <string name="main_text1">NFC</string>
+    <string name="main_text2">QR</string>
+    <string name="main_text3">此功能需要权限才能运行,否则无法正常使用，是否打开设置?</string>
+    <string name="web_text1">The product inspection of the query is passed, thanks for the purchase.\n is about to jump to the product information page.</string>
+    <string name="web_text2">The product may not be genuine, please use it carefully.</string>
+    <string name="web_text3">Put the phone close to the tag to verify the authenticity.</string>
+
+</resources>

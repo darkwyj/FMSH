@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:id="@+id/tv_message"
+        android:visibility="gone"
+        />
+    <LinearLayout
+        android:id="@+id/ll_img"
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/web_text3"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="20dp"
+            android:layout_gravity="center_horizontal"
+            />
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:src="@mipmap/hint"
+            android:layout_gravity="center_horizontal"
+            />
+        <TextView
+            android:id="@+id/tv_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:paddingTop="20dp"
+            android:layout_gravity="center_horizontal"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:visibility="gone"
+        android:layout_above="@+id/tv_message"
+        android:id="@+id/ll_web"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"></LinearLayout>
+
+
+</RelativeLayout>
